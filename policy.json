@@ -1,0 +1,32 @@
+{
+  "company_name": "Acme Corp",
+  "policy_version": "2026.1",
+  "currency": "USD",
+  "rules": {
+    "receipt_required_threshold": 25.00,
+    "max_claim_age_days": 90,
+    "future_dates_allowed": false,
+    "category_limits": {
+      "Meals & Entertainment": {
+        "max_amount_per_claim": 100.00,
+        "policy_section": "Section 4.1 - Meals & Subsistence",
+        "description": "Covers individual business meals up to $100 per instance. Alcohol requires explicit business entertainment justification. Itemized receipts are mandatory for all claims over $25."
+      },
+      "Travel & Transport": {
+        "max_amount_per_claim": 500.00,
+        "policy_section": "Section 3.2 - Ground & Air Transport",
+        "description": "Standard economy class travel, rideshare (Uber/Lyft/taxi), and train fares incurred during official business travel. Receipts are mandatory regardless of amount for air/rail."
+      },
+      "Accommodation": {
+        "max_amount_per_claim": 250.00,
+        "policy_section": "Section 3.4 - Lodging & Accommodation",
+        "description": "Standard hotel room rates up to $250/night. Personal mini-bar, in-room movies, or spa charges are strictly non-reimbursable."
+      },
+      "Office Supplies & Subscriptions": {
+        "max_amount_per_claim": 150.00,
+        "policy_section": "Section 5.3 - Equipment & Software",
+        "description": "Stationery, small peripherals, and authorized productivity software licenses required for job execution. Hardware over $150 requires pre-approval from IT."
+      }
+    }
+  }
+}
